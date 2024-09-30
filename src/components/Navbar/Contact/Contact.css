@@ -53,3 +53,19 @@
   margin-top: 5px;
   resize: none;
 }
+
+.contact-col span {
+  display: block;
+  margin: 20px 0;
+}
+
+/* ============ media query mobile devices============== */
+@media (max-width: 700px) {
+  .contact {
+    display: block;
+  }
+
+  .contact-col {
+    padding: 20px;
+  }
+}
