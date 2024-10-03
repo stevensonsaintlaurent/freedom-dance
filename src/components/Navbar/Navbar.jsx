@@ -48,7 +48,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="dance" smooth={true} offset={-260} duration={500}>
-            Classes
+            Gallery
           </Link>
         </li>
         <li>
