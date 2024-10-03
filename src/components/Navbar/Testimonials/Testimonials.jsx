@@ -4,7 +4,7 @@ import next_icon from "../../../assets/next-icon.png";
 import back_icon from "../../../assets/back-icon.png";
 import user_1 from "../../../assets/user-1.jpg";
 import user_2 from "../../../assets/user-2.jpg";
-import user_3 from "../../../assets/user-3.png";
+import user_3 from "../../../assets/ally3.jpg";
 import user_4 from "../../../assets/user-4.png";
 
 const Testimonials = () => {
@@ -81,15 +81,19 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_3} alt="" />
                 <div>
-                  <h3>Wiliam Jackson</h3>
+                  <h3>Allyson Corella</h3>
                   <span>Freedom Dance ,Las Vegas</span>
                 </div>
               </div>
               <p>
-                Chosing to pursue my style at Freedom dance was om of the best
-                decision I&apos;ve ever made.The supportive
-                community,state-of-the-art facilities,and commitment to the
-                class excellence have truly exceeded my expecrtations
+                My first ever dance class was with Stevenson at Freedom Dance.
+                What I appreciate the most about Stevenson is he encourages
+                diversity and inclusivity by suggesting students explore
+                different instructors. My favorite part about class is the
+                combination of learning and fun, plus the new friends I&apos;ve
+                made along the way. I would encourage anyone who wants to find
+                new joy in their life, to sign up for Bachata and Kizomba
+                with Freedom Dance💓
               </p>
             </div>
           </li>

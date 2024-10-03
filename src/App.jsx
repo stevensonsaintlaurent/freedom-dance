@@ -28,7 +28,6 @@ const App = () => {
         <Contact />
         <Footer />
       </div>
-
       <VideoPlayer playState={playState} setPlayState={setPlayState} />
     </div>
   );
