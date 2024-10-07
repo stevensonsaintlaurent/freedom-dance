@@ -5,7 +5,8 @@ import back_icon from "../../../assets/back-icon.png";
 import user_1 from "../../../assets/user-1.jpg";
 import user_2 from "../../../assets/user-2.jpg";
 import user_3 from "../../../assets/ally3.jpg";
-import user_4 from "../../../assets/user-4.png";
+import user_4 from "../../../assets/maribel.jpg";
+import user_5 from "../../../assets/adriana.jpg";
 
 const Testimonials = () => {
   const slider = useRef();
@@ -40,7 +41,7 @@ const Testimonials = () => {
         <ul ref={slider}>
           <li>
             <div className="slide">
-              <div className="user-info gabriela">
+              <div className="user-info ">
                 <img src={user_1} alt="" />
                 <div>
                   <h3>Gabriela Oman</h3>
@@ -59,7 +60,7 @@ const Testimonials = () => {
 
           <li>
             <div className="slide">
-              <div className="user-info  zagir">
+              <div className="user-info  ">
                 <img src={user_2} alt="" />
                 <div>
                   <h3>Zagir</h3>
@@ -103,15 +104,38 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_4} alt="" />
                 <div>
-                  <h3>Wiliam Jackson</h3>
+                  <h3>Maribel Magana</h3>
                   <span>Freedom Dance ,Las Vegas</span>
                 </div>
               </div>
               <p>
-                Chosing to pursue my style at Freedom dance was om of the best
-                decision I&apos;ve ever made.The supportive
-                community,state-of-the-art facilities,and commitment to the
-                class excellence have truly exceeded my expecrtations
+                I started taking Bachata and Kizomba classes with Stevenson at
+                Freedom Dance earlier this year. Stevenson is a very skilled and
+                talented dancer who makes it his goal to encourage and teach his
+                students to improve their dance skills while boosting their
+                confidence. Not only is he a great teacher but his classes are
+                also really fun. I highly recommend anyone who has a passion for
+                dancing to go take his classes. You&apos;ll be
+                learning from the best!
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div className="slide">
+              <div className="user-info">
+                <img src={user_5} alt="" />
+                <div>
+                  <h3>Adriana Luna Blake</h3>
+                  <span>Freedom Dance ,Las Vegas</span>
+                </div>
+              </div>
+              <p>
+                I love attending Freedom Dance Company because the classes are
+                fun. They focus on correcting and perfectioning the techniques,
+                and Stevenson is very patient and professional with his
+                students. They give each student the right amount of attention
+                and encouragement. I would highly recommend this dance studio.
               </p>
             </div>
           </li>

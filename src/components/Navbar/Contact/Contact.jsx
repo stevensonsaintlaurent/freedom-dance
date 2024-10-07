@@ -51,11 +51,27 @@ const Contact = () => {
             freedomdancelasvegas@gmail.com
           </li>
           <li>
-            <img src={phone_icon} alt="" /> 7026084001
+            <img src={phone_icon} alt="" />
+            <a href="7026084001">7026084001</a>
           </li>
           <li>
             <img src={location_icon} alt="" /> 601 Mall Ring Cir, Henderson, NV
             89014(Diamond Dance studio)
+          </li>{" "}
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100095031592137&mibextid=LQQJ4d">
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/freedom_dance_las_vegas?igsh=cXZmbm12dmM4MGQ0">
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@fd.las_vegas?_t=8qEDieUuXCJ&_r=1">
+              Tiktok
+            </a>
           </li>
         </ul>
       </div>
