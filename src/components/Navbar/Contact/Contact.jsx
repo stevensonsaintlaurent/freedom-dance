@@ -57,8 +57,9 @@ const Contact = () => {
           <li>
             <img src={location_icon} alt="" /> 601 Mall Ring Cir, Henderson, NV
             89014(Diamond Dance studio)
-          </li>{" "}
+          </li>
           <li>
+            {/* <FontAwesomeIcon icon="fa-brands fa-facebook" /> */}
             <a href="https://www.facebook.com/profile.php?id=100095031592137&mibextid=LQQJ4d">
               Facebook
             </a>
