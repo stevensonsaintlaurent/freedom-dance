@@ -5,6 +5,10 @@ import mail_icon from "../../../assets/mail-icon.png";
 import location_icon from "../../../assets/location-icon.png";
 import phone_icon from "../../../assets/phone-icon.png";
 import white_arrow from "../../../assets/white-arrow.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faFacebook} from '@fortawesome/free-brands-svg-icons'
+import {faInstagram} from '@fortawesome/free-brands-svg-icons'
+import {faTiktok} from '@fortawesome/free-brands-svg-icons'
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -59,19 +63,19 @@ const Contact = () => {
             89014(Diamond Dance studio)
           </li>
           <li>
-            {/* <FontAwesomeIcon icon="fa-brands fa-facebook" /> */}
+          
             <a href="https://www.facebook.com/profile.php?id=100095031592137&mibextid=LQQJ4d">
-              Facebook
+            <FontAwesomeIcon icon={faFacebook}/> Facebook
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com/freedom_dance_las_vegas?igsh=cXZmbm12dmM4MGQ0">
-              Instagram
+            <FontAwesomeIcon icon={faInstagram}/> Instagram
             </a>
           </li>
           <li>
             <a href="https://www.tiktok.com/@fd.las_vegas?_t=8qEDieUuXCJ&_r=1">
-              Tiktok
+            <FontAwesomeIcon icon={faTiktok}/> Tiktok
             </a>
           </li>
         </ul>
