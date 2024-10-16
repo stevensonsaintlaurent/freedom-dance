@@ -7,13 +7,14 @@ import user_2 from "../../../assets/user-2.jpg";
 import user_3 from "../../../assets/ally3.jpg";
 import user_4 from "../../../assets/maribel.jpg";
 import user_5 from "../../../assets/adriana.jpg";
+import user_6 from "../../../assets/Kanani.jpg";
 
 const Testimonials = () => {
   const slider = useRef();
   let tx = 0;
 
   const slideForward = () => {
-    if (tx > -50) {
+    if (tx > -40) {
       tx -= 25;
 
       slider.current.style.transform = `translateX(${tx}%)`;
@@ -136,6 +137,21 @@ const Testimonials = () => {
                 and Stevenson is very patient and professional with his
                 students. They give each student the right amount of attention
                 and encouragement. I would highly recommend this dance studio.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div className="slide">
+              <div className="user-info">
+                <img src={user_6} alt="" />
+                <div>
+                  <h3>Kanani Jane</h3>
+                  <span>Freedom Dance ,Las Vegas</span>
+                </div>
+              </div>
+              <p>
+              Freedom Dance is actually where I fell in love with Kizomba. 💜 Just walked into Stevenson&apos;s class, knowing nothing about Kizomba, and BAMM!! Melted, lol. Later I took a Bachata Bootcamp and learned from a dancer from Romania. Such a beautiful dancer with so much skill and experience. I was blessed with being able to learn from her as well as Stevenson.
               </p>
             </div>
           </li>
