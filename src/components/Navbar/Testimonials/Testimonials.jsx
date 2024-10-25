@@ -8,6 +8,7 @@ import user_3 from "../../../assets/ally3.jpg";
 import user_4 from "../../../assets/maribel.jpg";
 import user_5 from "../../../assets/adriana.jpg";
 import user_6 from "../../../assets/Kanani.jpg";
+import user_7 from "../../../assets/jesus.jpg";
 
 const Testimonials = () => {
   const slider = useRef();
@@ -151,7 +152,32 @@ const Testimonials = () => {
                 </div>
               </div>
               <p>
-              Freedom Dance is actually where I fell in love with Kizomba. 💜 Just walked into Stevenson&apos;s class, knowing nothing about Kizomba, and BAMM!! Melted, lol. Later I took a Bachata Bootcamp and learned from a dancer from Romania. Such a beautiful dancer with so much skill and experience. I was blessed with being able to learn from her as well as Stevenson.
+                Freedom Dance is actually where I fell in love with Kizomba. 💜
+                Just walked into Stevenson&apos;s class, knowing nothing about
+                Kizomba, and BAMM!! Melted, lol. Later I took a Bachata Bootcamp
+                and learned from a dancer from Romania. Such a beautiful dancer
+                with so much skill and experience. I was blessed with being able
+                to learn from her as well as Stevenson.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div className="slide">
+              <div className="user-info">
+                <img src={user_7} alt="" />
+                <div>
+                  <h3>Jesus</h3>
+                  <span>Freedom Dance ,Las Vegas</span>
+                </div>
+              </div>
+              <p>
+                Freedom dance is one of the best dance studio in Vegas
+                instructor Stevenson is a very nice and funny teacher He knows
+                the dances he is teaching and puts all the enthusiasm to each
+                class so come and join the team you will not regret it
+                Personally I am very happy because there is a very good vibe
+                with all the students come and practice Bachata and Kizomba.
               </p>
             </div>
           </li>
