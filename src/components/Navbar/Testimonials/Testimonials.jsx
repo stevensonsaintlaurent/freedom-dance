@@ -167,7 +167,7 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_7} alt="" />
                 <div>
-                  <h3>Jesus</h3>
+                  <h3>Jesús Silva</h3>
                   <span>Freedom Dance ,Las Vegas</span>
                 </div>
               </div>
