@@ -2,7 +2,7 @@ import React from "react";
 import "./Program.css";
 import group from "../../../assets/prices.jpg";
 import prive from "../../../assets/prices1.jpg";
-import social from "../../../assets/herostev.jpg";
+import social from "../../../assets/schedules2.jpg";
 
 const Programs = () => {
   return (
@@ -30,7 +30,7 @@ const Programs = () => {
 
         <div className="caption">
           <img src={social} alt="" />
-          <p>Social</p>
+          <p>Schedules</p>
         </div>
       </div>
     </div>
