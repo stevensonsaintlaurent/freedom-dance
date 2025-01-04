@@ -1,9 +1,9 @@
 import React from "react";
 import "./Dance.css";
-import gallery_1 from "../../../assets/poster3.JPG";
-import gallery_2 from "../../../assets/hero3.jpg";
-import gallery_3 from "../../../assets/hero4.jpg";
-import gallery_4 from "../../../assets/hero5.jpg";
+import gallery_1 from "../../../assets/ladies1.jpg";
+import gallery_2 from "../../../assets/leaders.jpg";
+import gallery_3 from "../../../assets/group.jpg";
+import gallery_4 from "../../../assets/poster33.jpg";
 import white_arrow from "../../../assets/white-arrow.png";
 
 const Dance = () => {
