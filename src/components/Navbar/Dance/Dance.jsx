@@ -1,6 +1,6 @@
 import React from "react";
 import "./Dance.css";
-import gallery_1 from "../../../assets/hero1.jpg";
+import gallery_1 from "../../../assets/poster3.JPG";
 import gallery_2 from "../../../assets/hero3.jpg";
 import gallery_3 from "../../../assets/hero4.jpg";
 import gallery_4 from "../../../assets/hero5.jpg";
