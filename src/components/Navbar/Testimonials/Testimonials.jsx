@@ -95,8 +95,8 @@ const Testimonials = () => {
                 different instructors. My favorite part about class is the
                 combination of learning and fun, plus the new friends I&apos;ve
                 made along the way. I would encourage anyone who wants to find
-                new joy in their life, to sign up for Bachata and Kizomba
-                with Freedom Dance💓
+                new joy in their life, to sign up for Bachata and Kizomba with
+                Freedom Dance💓
               </p>
             </div>
           </li>
@@ -117,8 +117,8 @@ const Testimonials = () => {
                 students to improve their dance skills while boosting their
                 confidence. Not only is he a great teacher but his classes are
                 also really fun. I highly recommend anyone who has a passion for
-                dancing to go take his classes. You&apos;ll be
-                learning from the best!
+                dancing to go take his classes. You&apos;ll be learning from the
+                best!
               </p>
             </div>
           </li>
