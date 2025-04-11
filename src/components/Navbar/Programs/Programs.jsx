@@ -12,7 +12,7 @@ const Programs = () => {
 
         <div className="caption">
           <img src={group} alt="" />
-          <p>Bachata</p>
+          <p>Couples</p>
         </div>
       </div>
 
@@ -21,7 +21,7 @@ const Programs = () => {
 
         <div className="caption">
           <img src={prive} alt="" />
-          <p>Kizomba</p>
+          <p>Single person</p>
         </div>
       </div>
 
